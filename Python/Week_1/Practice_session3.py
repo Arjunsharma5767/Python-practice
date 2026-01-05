@@ -8,7 +8,7 @@
 # string in Python.'''
  
 # String slicing
-name ="Rucheeta&Arjun"
+name ="Arjun&sharmaAS"
 nameshort = name[0:14]
 print ("The short form of", name, "is", nameshort)
 character1 = name[0]
@@ -42,4 +42,5 @@ character2 = name[-2]
 print (character2)
 character1 = name[-1]
 print (character1)
+
 
