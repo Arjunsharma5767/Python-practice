@@ -1,5 +1,4 @@
 
-# Day 02: Python Variables, Data Types, and Operators
 
 '''
 #  working with
@@ -225,3 +224,4 @@ print("The cube of",a,"is", c)
 
 # (a^2) and (a^3) are not used in python for square and cube
 '''
+
