@@ -1,4 +1,4 @@
-# Day 03: Python Strings and String Methods
+
 # Strings in python can be defined using single quotes, 
 # double quotes, or triple quotes for multi-line strings. 
 # Here are some examples of string definitions:
@@ -42,3 +42,4 @@ character2 = name[-2]
 print (character2)
 character1 = name[-1]
 print (character1)
+
