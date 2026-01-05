@@ -18,8 +18,8 @@ for i in range(2,21):
 import pyjokes
 def random_joke():
     print("Getting a random joke for you:")
-    Rucheeta = pyjokes.get_joke()
-    print(Rucheeta)
+    joke = pyjokes.get_joke()
+    print(joke)
     # So thanks
     # This was My Jokes program and 
     # here i used the Multiline comment
@@ -55,3 +55,4 @@ for item in contents:
     print (item)
 
 '''
+
