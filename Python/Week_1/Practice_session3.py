@@ -1,47 +1,48 @@
+"""
+--------------------------------------------------
+STRINGS IN PYTHON
+Topics: String definition, indexing, slicing, reverse indexing
+--------------------------------------------------
+"""
 
-# Strings in python can be defined using single quotes, 
-# double quotes, or triple quotes for multi-line strings. 
-# Here are some examples of string definitions:
-# single_quote_str = 'Hello, World!'
-# double_quote_str = "Hello, Python!" 
-# triple_quote_str = '''This is a multi-line
-# string in Python.'''
- 
-# String slicing
-name ="Arjun&sharmaAS"
-nameshort = name[0:14]
-print ("The short form of", name, "is", nameshort)
-character1 = name[0]
-print (character1)
-character2 = name[1]
-print (character2)
-character3 = name[2]
-print (character3)
-character4 = name[3]
-print (character4)
-character5 =name[4]
-print (character5)
-character6 =name[5]
-print (character6)
-character7 =name[6]
-print (character7)
+# Strings in Python can be defined using:
+# 1. Single quotes
+# 2. Double quotes
+# 3. Triple quotes (for multi-line strings)
 
-# Reverse
+single_quote_str = 'Hello, World!'
+double_quote_str = "Hello, Python!"
+triple_quote_str = """This is a multi-line
+string in Python."""
 
-character6 =name[-7]
-print (character6)
-character5 =name[-6]
-print (character5)
-character4 =name[-5]
-print (character4)
-character3 = name[-4]
-print (character3)
-character3 = name[-3]
-print (character3)
-character2 = name[-2]
-print (character2)
-character1 = name[-1]
-print (character1)
+print(single_quote_str)
+print(double_quote_str)
+print(triple_quote_str)
 
 
+# --------------------------------------------------
+# STRING SLICING
+# --------------------------------------------------
+text = "Sample&StringAS"
 
+short_text = text[0:14]
+print("\nOriginal String:", text)
+print("Sliced String:", short_text)
+
+
+# --------------------------------------------------
+# STRING INDEXING (FORWARD)
+# --------------------------------------------------
+print("\nForward Indexing:")
+
+for i in range(len(text)):
+    print(f"Character at index {i}: {text[i]}")
+
+
+# --------------------------------------------------
+# STRING INDEXING (REVERSE)
+# --------------------------------------------------
+print("\nReverse Indexing:")
+
+for i in range(1, len(text) + 1):
+    print(f"Character at index -{i}: {text[-i]}")
