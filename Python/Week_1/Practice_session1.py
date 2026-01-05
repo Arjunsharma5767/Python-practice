@@ -1,7 +1,4 @@
 
-# Day 01: Python Comments and Basic Programs
-
-
 '''
 # Exercise 1:
 print ("Twinkle, twinkle, little star,")
@@ -56,4 +53,5 @@ contents = os.listdir(directory_path)
 # Finally print the contents of the directory
 for item in contents:
     print (item)
+
 '''
